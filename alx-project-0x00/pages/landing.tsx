@@ -12,11 +12,13 @@ const LandingPage: React.FC = () => {
         <Card />
         <Card />
         <h1 className="text-2xl font-bold mb-4">Reusable Buttons</h1>
-        <div className="space-y-4">
-            <Button title="Small Button" size="small" shape="rounded-sm" />
-            <Button title="Medium Button" size="medium" shape="rounded-md" />
-            <Button title="Large Button" size="large" shape="rounded-full" />
-            </div>
+        
+        <div className="space-x-4">
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-sm transition">Small</button>
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-md transition">Medium</button>
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-lg transition">Large</button>
+
+        </div>
 
       </div>
     </div>
