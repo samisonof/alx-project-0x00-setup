@@ -17,6 +17,7 @@ const LandingPage: React.FC = () => {
             <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-sm">Small</button>
             <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-md">Medium</button>
             <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-lg">Large</button>
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-full">Full-Large</button>
 
         </div>
 
