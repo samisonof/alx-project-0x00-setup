@@ -14,9 +14,9 @@ const LandingPage: React.FC = () => {
         <h1 className="text-2xl font-bold mb-4">Reusable Buttons</h1>
         
         <div className="space-x-4">
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-sm transition">Small</button>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-md transition">Medium</button>
-            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-lg transition">Large</button>
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-sm">Small</button>
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-md">Medium</button>
+            <button className="bg-blue-600 hover:bg-blue-700 text-white font-semibold px-4 py-2 rounded-full">Large</button>
 
         </div>
 
