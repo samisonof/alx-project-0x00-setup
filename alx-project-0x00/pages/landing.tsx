@@ -1,14 +1,17 @@
-// pages/landing.tsx
+import React from "react"
+import Card from "@/components/Card"
 
-import React from "react";
-import Card from "@/components/Card";
-
-const Landing: React.FC = () => {
+const LandingPage: React.FC = () => {
   return (
-    <main className="min-h-screen p-6 bg-white flex justify-center items-center">
-      <Card />
-    </main>
-  );
-};
+    <div className="p-6">
+      <h1 className="text-2xl font-bold mb-4">Explore Villas</h1>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+        <Card />
+        <Card />
+        <Card />
+      </div>
+    </div>
+  )
+}
 
-export default Landing;
+export default LandingPage
