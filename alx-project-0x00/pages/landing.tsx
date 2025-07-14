@@ -1,8 +1,14 @@
-const Landing: React.FC =  () => {
+// pages/landing.tsx
+
+import React from "react";
+import Card from "@/components/Card";
+
+const Landing: React.FC = () => {
   return (
-    <div>
-      <h1 className=" text-xl font-extralight">Landing Page</h1>
-    </div>
-  )
-}
-export default Landing
+    <main className="min-h-screen p-6 bg-white flex justify-center items-center">
+      <Card />
+    </main>
+  );
+};
+
+export default Landing;
